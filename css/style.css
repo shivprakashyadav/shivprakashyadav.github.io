@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px dashed white;
 }
 #fh5co-home .text-inner h1 {
-  font-size: 90px;
+  font-size: 40px;
   color: #27303b;
   margin: -150px 0 20px 0;
 }
@@ -1406,7 +1406,7 @@ h1, h2, h3, h4, h5, h6 {
 /*# sourceMappingURL=style.css.map */
 
 .txt-rotate{
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   font-weight: 200;
   margin: 150px 0;
@@ -1417,7 +1417,7 @@ h1, h2, h3, h4, h5, h6 {
 Start Important Part
 ==================================================*/
 .underline--magical {
-  font-size: 80px;
+  font-size: 50px;
   color: #27303b;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-repeat: no-repeat;
