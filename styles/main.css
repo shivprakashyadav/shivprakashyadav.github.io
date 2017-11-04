@@ -3017,12 +3017,12 @@ body.has-menu-open {
 }
 
 .menu-overlay li a {
-	color: #222;
+	color: #7463ef
 	text-decoration: none;
 	font-size: 3.552rem;
 	line-height: 4.5rem;
 	font-weight: 500;
-	font-style: italic;
+	font-style: normal;
 	-webkit-transition: all .25s ease;
 	transition: all .25s ease;
 	display: inline-block;
@@ -3038,9 +3038,9 @@ body.has-menu-open {
 
 .menu-overlay li a:after {
 	content: ' ';
-	height: .2em;
+	height: 3.5rem;
 	width: 0;
-	top: 50%;
+	top: 10%;
 	left: -1.5rem;
 	position: absolute;
 	background-color: #fff89d;
