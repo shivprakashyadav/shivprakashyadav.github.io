@@ -3298,7 +3298,7 @@ footer {
 }
 
 .landing-image--portrait {
-	background: url(../images/landing_bg.jpg) no-repeat 50%;
+	background: url(../images/landing_bg.png) no-repeat;
 	background-size: cover;
 	-webkit-animation: f 1s ease forwards;
 	animation: f 1s ease forwards;
@@ -3306,6 +3306,7 @@ footer {
 	animation-delay: .3s;
 	/*background-blend-mode: multiply;*/
 	background-color: #21D4FD;
+	z-index: 9999;
 	opacity: 0.9;
 	/*background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);*/
 	overlay: 0.9
@@ -3389,7 +3390,7 @@ footer {
 	max-height: 30rem;
 	max-width: 1800px;
 	overflow: hidden;
-	background-position: 50%;
+	/*background-position: 50%;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0 auto;
