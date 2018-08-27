@@ -243,7 +243,7 @@ html {
 body {
 	padding: 0;
 	margin: 0;
-	font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Poppins',Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	font-weight: 400;
 	line-height: 1.5;
 	color: #0a0a0a;
@@ -2849,7 +2849,7 @@ html {
 }
 
 body {
-	font-family: Futura PT Multilingual W01, Helvetica Neue, Helvetica, "sans-serif";
+	font-family: 'Poppins', Futura PT Multilingual W01, Helvetica Neue, Helvetica, "sans-serif";
 	color: black;
 	font-size: 1.125rem;
 	line-height: 1.5rem;
@@ -3127,8 +3127,8 @@ footer {
 }
 
 .footer-contact a {
-	font-family: Futura PT Multilingual W01;
-	font-weight: 200;
+	font-family: 'Poppins', sans-serif;;
+	font-weight: 900;
 	color: #222;
 	color: #7259f0;
 	border-bottom: 1px solid #7259f0
@@ -3186,7 +3186,7 @@ footer {
 }
 
 .post h3 {
-	font-weight: 400;
+	font-weight: 900;
 	font-style: italic
 }
 
@@ -3268,7 +3268,7 @@ footer {
 }
 
 .landing-name {
-	font-weight: 500;
+	font-weight: 900;
 	text-align: center;
 	width: 100%;
 	margin-top: 1.5rem;
