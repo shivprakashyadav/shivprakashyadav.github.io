@@ -11,6 +11,8 @@ body {
 	min-height: 100vh;
 	color: #222;
 	background-color: #fff;
+	    --grid-item-bg: #f1f1f1;
+	
 	
 }
 
