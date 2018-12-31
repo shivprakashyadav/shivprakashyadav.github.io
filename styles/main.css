@@ -3077,7 +3077,7 @@ body.has-menu-open {
 	cursor: pointer;
 	-webkit-transition: opacity .25s ease;
 	transition: opacity .25s ease;
-	width: 2.25rem
+	width: 10rem
 }
 
 .logo-img:hover {
