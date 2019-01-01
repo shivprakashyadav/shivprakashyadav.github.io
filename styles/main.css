@@ -3298,7 +3298,7 @@ footer {
 }
 
 .landing-image--portrait {
-	background: url(../images/landing_bg.png) no-repeat;
+	background: url(../images/landing_bg.jpg) no-repeat;
 	background-size: cover;
 	-webkit-animation: f 1s ease forwards;
 	animation: f 1s ease forwards;
