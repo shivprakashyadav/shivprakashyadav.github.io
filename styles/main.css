@@ -3064,9 +3064,9 @@ body.has-menu-open {
 .menu-contact a {
 	font-weight: 200;
 	color: #222;
-	color: #7259f0;
+	color: #91384e;
 	margin-right: .75rem;
-	border-bottom: 1px solid #7259f0
+	border-bottom: 1px dotted #91384e
 }
 
 .menu-contact a:hover {
