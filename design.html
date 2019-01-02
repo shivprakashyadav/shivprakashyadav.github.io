@@ -31,11 +31,7 @@
   </script>
 </head>
 <body class="">
-	<div class="loading-page">
-      <div class="counter">
-        <h1>0</h1>
-      </div>
-    </div>
+	
   <!--[if lt IE 9]>
   <p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -325,24 +321,7 @@
       </div>
     </div>
   </div>
-<script>
-	$(document).ready(function() {
-        
-        var counter = 0;
-        var c = 0;
-        var i = setInterval(function() {
-          
-          $(".loading-page .counter h1").html(c);
-          $(".loading-page").css("width", c + "%");
-          
-          counter++;
-          c++;
-          if(counter == 101) {
-            clearInterval(i);
-          }
-        }, 50);
-      });
-</script>
+
   <script src="scripts/main.js"></script>
   <script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/masonry.pkgd.min.js"></script>
