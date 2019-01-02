@@ -2948,7 +2948,7 @@ body.has-menu-open {
 
 .menu-overlay {
 	position: fixed;
-	background-color: #fff1f6;
+	background-color: #fdf9fb;
 	top: 0;
 	left: 0;
 	width: 100%;
