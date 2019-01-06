@@ -2652,8 +2652,9 @@ h1 {
 h1,
 h2 {
 	font-weight: 500;
-	letter-spacing: .012em;
-	margin-bottom: 1.5rem
+	font-size:6em;
+	letter-spacing: -0.08em;
+	margin-bottom: 1rem
 }
 
 .music-cover:after,
@@ -2676,7 +2677,8 @@ p.subtext {
 h3 {
 	font-weight: 400;
 	letter-spacing: .012em;
-	margin-bottom: .75rem
+	margin-bottom: .75rem;
+	margin-left:-3rem
 }
 
 label {
@@ -3359,9 +3361,14 @@ footer {
 		-webkit-animation-delay: .5s;
 		animation-delay: .5s;
 		padding: 5.3rem 1.5rem
+		font-size:.6rem
 	}
 }
-
+@media only screen and (max-width:40em) {
+	.h3{
+		margin-left:0rem
+	}
+}
 @media only screen and (min-width:40.0625em) {
 	.landing-text {
 		-webkit-animation: h .3s ease-in-out forwards;
