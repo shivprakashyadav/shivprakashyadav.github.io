@@ -5,7 +5,8 @@ body {
     position: relative;
    } 
  .alert-warning{
-   font-family: 'Noto Serif',serif; 
+   font-family: 'Noto Serif',serif;
+   font-weight: 700 
  }   
   
 .Noto-serif{
