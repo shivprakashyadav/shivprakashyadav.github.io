@@ -6,7 +6,9 @@ body {
     font-family: 'Noto Serif', serif
     
   }
-
+.Noto-serif{
+   font-family: 'Noto Serif';
+}
   
   .scrollspy-example-2 {
     position: relative;
