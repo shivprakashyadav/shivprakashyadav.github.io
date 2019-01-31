@@ -1,15 +1,58 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i');
-
+html{
+   
+}
 body {
     position: relative;
+    font-family: 'Noto Serif',serif
    } 
  .alert-warning{
    font-family: 'Noto Serif',serif;
    font-weight: 700 
  }   
   
-.Noto-serif{
+.chapter-title{
+    font-family: 'Noto Serif',serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+.chapter-name{
+    font-family: 'Noto Serif',serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gita-name{
+   font-family: 'Noto Serif',serif;
+   font-size: 2em;
+   font-weight: 700;
+   
+}
+.chapter-intro{
+   font-family: 'Noto Serif',serif;
+   text-transform: lowercase
+}
+.sp-title{
+   font-family: 'Noto Serif',serif;
+   text-align: center;
+   font-weight: 400;
+   font-size: 1em;
+   line-height: 1.2em;
+   margin-top: .5em;
+   margin-bottom: 1em;
+   
+}
+
+
+.Noto-serif-body{
    font-family: 'Noto Serif',serif;
 }
   
