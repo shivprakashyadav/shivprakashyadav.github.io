@@ -1,7 +1,10 @@
 body {
     position: relative;
+    font-family: Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
     
   }
+
+  
   .scrollspy-example-2 {
     position: relative;
     height: 350px;
