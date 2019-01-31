@@ -3,9 +3,11 @@
 
 body {
     position: relative;
-   
-    
-  }
+   } 
+ .alert-warning{
+   font-family: 'Noto Serif',serif; 
+ }   
+  
 .Noto-serif{
    font-family: 'Noto Serif',serif;
 }
