@@ -3,6 +3,15 @@
 html{
    
 }
+.notes-bg{
+   color: #5F4B32;
+   background-color: #FBF0D9;
+   border-color: #ffeeba;
+}
+.bg-color{
+   color: #5F4B32;
+   background-color: #FBF0D9
+}
 body {
     position: relative;
     font-family: 'Noto Serif',serif
@@ -10,7 +19,24 @@ body {
  .alert-warning{
    font-family: 'Noto Serif',serif;
    font-weight: 700 
- }   
+ }  
+ 
+ .notes-card{
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      padding: .5rem 1rem;
+      color: #5F4B32;
+      background-color: #FBF0D9
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+  }
+ 
   
 .chapter-title{
     font-family: 'Noto Serif',serif;
@@ -75,9 +101,7 @@ body {
     text-align: justify;
     margin-bottom: 1.5em
  }
- .card{
-    padding: .5rem 1rem;
- }
+
  .r-notes{
     text-align: justify;
     margin-bottom: 1.5em
