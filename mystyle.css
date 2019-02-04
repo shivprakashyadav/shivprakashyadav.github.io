@@ -3,9 +3,24 @@
 html{
    
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  
+   background-color: #024952;
+}
+.bg-toc {
+   background-color: #24656e;
+
+} 
+.bg-toc  a{
+   color:white;
+} 
+.nav-link :active{
+   background-color: #024952;
+} 
+
 .bg-color{
    color: #1d1601;
-   background-color: #FBF0D9
+   background-color: #f9d9a8
 }
 body {
     position: relative;
@@ -29,7 +44,7 @@ body {
       background-color: #FBF0D9
       background-clip: border-box;
       border: 1px solid rgba(0,0,0,.125);
-      border-radius: .25rem;
+      border-radius: .25rem
       
   }
   .notes-border{
@@ -87,19 +102,23 @@ body {
   .r-verse-text 
   {
     text-align: center;
-    margin-bottom: 1.5em
+    margin-bottom: 1.5em;
+    font-size: 1.2em
 }
 .r-synonyms, p {
     text-align: justify;
     margin-bottom: 1.5em
 }
-.r-translation,  p
+.r-translation
  {
     text-align: justify;
-    margin-bottom: 1.5em
+    margin-bottom: 1.5em;
+    font-weight: bolder
  }
 
  .r-notes{
     text-align: justify;
-    margin-bottom: 1.5em
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.8em
  }
