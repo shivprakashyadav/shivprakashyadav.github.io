@@ -4,8 +4,11 @@ html{
    
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  
-   background-color: #024952;
+   color: #fff;
+   background-color: #024952 !important
+}
+a:hover {
+   color: #f9d9a8!important;
 }
 .bg-toc {
    background-color: #24656e;
@@ -14,9 +17,7 @@ html{
 .bg-toc  a{
    color:white;
 } 
-.nav-link :active{
-   background-color: #024952;
-} 
+
 
 .bg-color{
    color: #1d1601;
