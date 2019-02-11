@@ -1,0 +1,375 @@
+﻿﻿﻿﻿﻿﻿Installing macro: di_balaram_unicode
+
+1. Open Microsoft Word, go to Tools > Macro > Macros or click ALT+F8. 
+2. Copy in the name of the macro (ie. di_hk_unicode), click Create and the macro editor opens. 
+3. Copy the macro text that was produced to the clipboard. 
+4. In the macro editor, replace the text beginning with Sub and ending with End Sub with the text you've copied. 
+5. The macro is now available at Tools > Macro. Select the macro to be applied and click "Run".
+6. Replacing will be faster if you are in normal view instead of print view. View > Normal.
+
+
+----------
+
+
+
+Sub di_balaram_unicode()
+'
+' Macro: di_balaram_unicode
+' Automatically produced by diCrunch v2.00:b5
+' Creation date: Tue, 05 Jun 2007 13:31:45 +0000 
+' Online at http://www.bhasa.net/diCrunch.php
+'
+
+With Selection.Find
+  .Text = "Ä"
+  .Replacement.Text = ChrW(256)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "É"
+  .Replacement.Text = ChrW(298)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ü"
+  .Replacement.Text = ChrW(362)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Å"
+  .Replacement.Text = ChrW(7770)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "È"
+  .Replacement.Text = ChrW(7772)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ì"
+  .Replacement.Text = ChrW(7748)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ï"
+  .Replacement.Text = "Ñ"
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ö"
+  .Replacement.Text = ChrW(7788)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ò"
+  .Replacement.Text = ChrW(7692)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ë"
+  .Replacement.Text = ChrW(7750)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ç"
+  .Replacement.Text = ChrW(346)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ñ"
+  .Replacement.Text = ChrW(7778)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "À"
+  .Replacement.Text = ChrW(7744)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ù"
+  .Replacement.Text = ChrW(7716)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ß"
+  .Replacement.Text = ChrW(7734)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ß"
+  .Replacement.Text = ChrW(7736)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = ".Ò"
+  .Replacement.Text = ChrW(7694)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "Ý"
+  .Replacement.Text = ChrW(7822)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ä"
+  .Replacement.Text = ChrW(257)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "é"
+  .Replacement.Text = ChrW(299)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ü"
+  .Replacement.Text = ChrW(363)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "å"
+  .Replacement.Text = ChrW(7771)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "è"
+  .Replacement.Text = ChrW(7773)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ì"
+  .Replacement.Text = ChrW(7749)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ï"
+  .Replacement.Text = "--j--"
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ö"
+  .Replacement.Text = ChrW(7789)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ò"
+  .Replacement.Text = ChrW(7693)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ë"
+  .Replacement.Text = ChrW(7751)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ç"
+  .Replacement.Text = ChrW(347)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ñ"
+  .Replacement.Text = ChrW(7779)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "à"
+  .Replacement.Text = ChrW(7745)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ù"
+  .Replacement.Text = ChrW(7717)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ÿ"
+  .Replacement.Text = ChrW(7735)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "û"
+  .Replacement.Text = ChrW(7737)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = ".ò"
+  .Replacement.Text = ChrW(7695)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "ý"
+  .Replacement.Text = ChrW(7823)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "~"
+  .Replacement.Text = ChrW(625)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "_"
+  .Replacement.Text = ChrW(814)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "'"
+  .Replacement.Text = "'"
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "~"
+  .Replacement.Text = ChrW(625)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "/x"
+  .Replacement.Text = "/x"
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = ChrW(8230)
+  .Replacement.Text = ChrW(8230)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = ChrW(8217)
+  .Replacement.Text = ChrW(8217)
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+With Selection.Find
+  .Text = "--j--"
+  .Replacement.Text = "ñ"
+  .Wrap = wdFindContinue
+  .MatchCase = True
+End With
+Selection.Find.Execute Replace:=wdReplaceAll
+
+End Sub

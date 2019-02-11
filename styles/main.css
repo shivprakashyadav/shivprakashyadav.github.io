@@ -2877,7 +2877,7 @@ body.has-menu-open {
 .back,
 .logo {
 	position: fixed;
-	top: 0.5rem;
+	top: 2.5rem;
 	left: .75rem
 }
 
@@ -3201,7 +3201,7 @@ footer {
 }
 
 .project-content {
-	margin-top: 9rem;
+	margin-top: 1rem;
 	margin-bottom: 4.5rem
 }
 
