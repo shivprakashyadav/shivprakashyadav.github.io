@@ -3,7 +3,6 @@
 html{
    
 }
-<<<<<<< HEAD
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
    color: #fff;
    background-color: #024952 !important
@@ -23,16 +22,6 @@ a:hover {
 .bg-color{
    color: #1d1601;
    background-color: #f9d9a8
-=======
-.notes-bg{
-   color: #5F4B32;
-   background-color: #FBF0D9;
-   border-color: #ffeeba;
-}
-.bg-color{
-   color: #5F4B32;
-   background-color: #FBF0D9
->>>>>>> parent of b34264f... Color set for good reading
 }
 body {
     position: relative;
