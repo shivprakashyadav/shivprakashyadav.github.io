@@ -3450,7 +3450,9 @@ footer {
 .about-section--bg:after {
 	content: ' ';
 	position: absolute;
-	background-color: #f6f9fb;
+	background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
 	width: 100%;
 	top: 0;
 	left: 0;
