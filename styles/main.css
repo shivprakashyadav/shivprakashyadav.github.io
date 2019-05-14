@@ -2865,7 +2865,8 @@ body.has-menu-open {
 .menu {
 	position: fixed;
 	top: 1.5rem;
-	right: .75rem
+	right: .75rem;
+	z-index:999
 }
 
 @media only screen and (min-width:64.0625em) {
